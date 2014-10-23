@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities.csproj", "{3B5794EE-82C1-4370-96F3-166C4A67BDAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{42778E0E-CD58-418A-A6FB-6B1C93E64710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilitiesTest", "UtilitiesTest\UtilitiesTest.csproj", "{59A1F9F4-26C8-4D9C-89C7-8910498C29EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B5794EE-82C1-4370-96F3-166C4A67BDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5794EE-82C1-4370-96F3-166C4A67BDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5794EE-82C1-4370-96F3-166C4A67BDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5794EE-82C1-4370-96F3-166C4A67BDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A1F9F4-26C8-4D9C-89C7-8910498C29EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A1F9F4-26C8-4D9C-89C7-8910498C29EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A1F9F4-26C8-4D9C-89C7-8910498C29EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A1F9F4-26C8-4D9C-89C7-8910498C29EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59A1F9F4-26C8-4D9C-89C7-8910498C29EF} = {42778E0E-CD58-418A-A6FB-6B1C93E64710}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Utilities.csproj
+	EndGlobalSection
+EndGlobal
