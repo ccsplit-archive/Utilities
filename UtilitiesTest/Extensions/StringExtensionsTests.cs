@@ -4,12 +4,22 @@ using NUnit.Framework;
 namespace UtilitiesTest
 {
 	[TestFixture]
-	public class Test
+	public class StringExtensionTests
 	{
-		[Test]
-		public void TestCase ()
+		#region Variables
+		private string _string;
+		#endregion
+
+		#region Setup
+		[SetUp]
+		public void Initialize()
 		{
+			_string = string.Empty;
 		}
+		#endregion
+
+		#region Tests
+		#endregion
 	}
 }
 
