@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{59A1F9F4-26C8-4D9C-89C7-8910498C29EF}</ProjectGuid>
+    <ProjectGuid>{26DDBB17-E809-454C-9B11-E25862ADF0C5}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>UtilitiesTest</RootNamespace>
-    <AssemblyName>UtilitiesTest</AssemblyName>
+    <RootNamespace>UtilitiesTests</RootNamespace>
+    <AssemblyName>UtilitiesTests</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,11 +33,8 @@
     <Reference Include="nunit.core, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
     <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Extensions\StringExtensionsTests.cs" />
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Extensions\" />
+    <Compile Include="StringExtensionsTests.cs" />
   </ItemGroup>
 </Project>
